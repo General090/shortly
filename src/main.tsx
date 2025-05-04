@@ -5,6 +5,7 @@ import Nav from '../src/components/Nav'
 import Features from '../src/components/features'
 import Email from './components/email'
 import Stat from  './components/stat'
+import Footer from  './components/footer'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -13,5 +14,6 @@ createRoot(document.getElementById('root')!).render(
    <Features />
    <Email />
    <Stat />
+   <Footer />
   </StrictMode>,
 )
